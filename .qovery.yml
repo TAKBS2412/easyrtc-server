@@ -1,0 +1,11 @@
+---
+application:
+  name: "easyrtc-server"
+  project: "easyrtc-server"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-easyrtc-server"
+  routes:
+  - application_name: "easyrtc-server"
+    paths:
+    - "/*"
